@@ -1,0 +1,70 @@
+@import "http://webfonts.ru/import/egipet.css";
+@import "http://webfonts.ru/import/beermoney.css";
+
+.but{
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;     
+    background-color: brown;
+    color: LemonChiffon;
+    font-family: 'Egipet';
+    font-size: 100%;
+    text-align: center;   
+    border: 1px LemonChiffon solid;
+	border-radius: 10px;
+    cursor: pointer; 
+	box-shadow: 0px 0px 10px #000;
+    transition:  0.5s;   
+    -ms-transition:  0.5s;   
+    transform: scale(1);
+    -ms-transform: scale(1);
+}
+.but:hover{
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);    
+}
+.inp{
+	border-width: 0;   
+    border: 2px solid;
+    border-color: brown;
+    background: none;
+    font-family: 'Beer money';
+    font-size: 100%;
+    outline: none;
+}
+.message{	
+    opacity: 1;
+    z-index: 10;
+    padding: 10px;
+    position: fixed;        
+    border: solid 1px red;
+    background-color: sandybrown;
+    border-radius: 10px;
+    font-family: 'Egipet';    
+	text-align: center;
+	color: brown;
+    box-shadow: 0px 0px 10px #000;
+}
+body{	
+	scrollbar-face-color: LemonChiffon; 
+	scrollbar-highlight-color: white;
+	scrollbar-shadow-color: gray; 
+	scrollbar-3dlight-color: gray;
+	scrollbar-arrow-color: gray; 
+	scrollbar-track-color: LemonChiffon;
+	scrollbar-darkshadow-color: gray;
+
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}

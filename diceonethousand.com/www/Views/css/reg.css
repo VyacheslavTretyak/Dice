@@ -1,0 +1,76 @@
+#divReg{
+    width: 600px;
+    height: 700px;
+	margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+	border-radius: 10px;	
+	border: 5px brown double;
+    background-color: LemonChiffon;
+    background-size: 100% 100%;  
+    text-align: center;  
+	font-family: 'Egipet';
+	font-size: 200%;
+}
+.mesReg{ 	
+    opacity: 1;
+    z-index: 10;
+    padding: 10px;
+    position: absolute;        
+    border: solid;
+    border-color: red;
+    background-color: sandybrown;
+    border-radius: 10px;
+    font-family: 'Egipet';    
+	text-align: center;
+	color: brown;
+    box-shadow: 0px 0px 10px #000;     
+}
+.reg{
+	border: none;
+	border-bottom: 3px solid brown;
+}
+#tabReg{	
+	margin-top: 30px;
+	margin-bottom: 50px;
+	cellpadding: 10px;
+}
+.lineTabReg>td{	 
+    padding-top: 30px;      
+	padding-bottom: 0px;
+}
+.errLogin{
+	width: 250px;
+	margin-top: -50px;
+	margin-left: 20px;
+}
+#divCaptcha{
+	clear: both;
+}
+#imgCaptcha{
+	width: 434px;
+	height: 64px;
+	cursor: pointer;
+}
+#eCaptcha{
+	margin-top: -70px;
+	margin-left: 520px;
+}
+#mesYouGotEmail{
+	position: relative;
+	margin: 100px;
+	left: 15%;
+	width: 50%;
+	font-size: 200%;	
+}
+#bReg{
+	display: inline-block;
+	width: 300px;
+}
+#divReg #bReg{
+	margin-top: 30px;	
+}
+#divLogin #bReg{
+	margin-top: 10px;	
+}

@@ -1,0 +1,50 @@
+html{
+    height: 100%;
+}
+body{	
+	height: 100%;
+    width: 100%;
+	margin: 0px;
+    margin-left: auto;
+    margin-right: auto;		
+} 
+#wraper{
+	min-height: 90%;	
+	background-color: LemonChiffon;
+}
+#header{
+	height: 170px;
+	background-color: brown;
+	border: double 5px LemonChiffon;	
+    font-family: 'Egipet';
+	color: LemonChiffon;
+    font-size: 1000%; 	
+}
+#scr{
+	height: 100%;
+}
+#bFadeUsers{
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	font-size: 60%;
+	color: black;
+}
+#texthed{	
+	display: inline-block;	
+}
+#footer{	
+	height: 170px;	
+	background-color: brown;	
+	border: double LemonChiffon 5px;	
+	color: LemonChiffon;
+    font-family: 'Egipet';
+    font-size: 400%;
+    text-align: center;	
+}
+#myemail{
+	color: white;	
+	font-family: 'Beer money';
+	font-size: 70%;
+	margin-bottom: 10px;
+}

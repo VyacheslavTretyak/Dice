@@ -1,0 +1,97 @@
+#divChatGame{	
+	position: fixed;
+	top: 200px;
+	left: -1000px;
+	height: 85%;
+	width: 98%;	
+	border: 4px LemonChiffon solid;	
+	overflow: auto;
+	font-size: 300%;
+	background: LemonChiffon;
+}
+#divChat{	
+	width: 98%;
+	border: 4px LemonChiffon solid;
+	overflow: auto;	
+}
+#titChat{
+	color: brown;
+	font-family: 'Egipet';
+	font-size: 150%;
+}
+#chatArea{
+	display: none;
+	text-align: center;	
+}
+#areaMess{
+	width: 90%;
+	height: 160px;
+	display: block;
+	resize: none;
+	margin: 5px 5% 5px 5%;		
+}
+::-webkit-input-placeholder {color:BurlyWood;}
+::-moz-placeholder          {color:BurlyWood;}/* Firefox 19+ */
+:-moz-placeholder           {color:BurlyWood;}/* Firefox 18- */
+:-ms-input-placeholder      {color:BurlyWood;}
+#bSendMess, #bCancelMess{
+	display: inline-block;
+	width: 300px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#sp{
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	white-space: nowrap;	
+}
+#messageArea{
+	text-align: left;
+}
+.dateMess{
+	margin-left: 100px;
+	font-family: 'Beer money';
+	font-size: 100%;
+	color: gray;
+}
+.bRemMess{
+	text-align: center;
+	width: 60px;	
+}
+/* #divChatGame .dateMess{
+	color: BurlyWood;
+}
+#divChatGame .textMessage{
+	color: LemonChiffon;
+}
+#divChatGame .fromUser{
+	color: PaleGreen;
+}
+#divChatGame .toUser{
+	color: CornflowerBlue;
+}
+#divChatGame #areaMess{
+	color: LemonChiffon
+} */
+.fromUser{
+	font-family: 'Beer money';
+	font-size: 100%;
+	color: green;
+}
+.toUser{
+	font-family: 'Beer money';
+	font-size: 100%;
+	color: blue;
+}
+.textMessage{
+	font-family: 'Beer money';
+	font-size: 150%;
+	color: brown;	
+}
+#arrow{
+	height: 50px;
+	width: 50px;
+	margin: 0px 5px 0px 10px;	
+}

@@ -1,0 +1,14 @@
+#help{
+	position: absolute;
+	top: 15%;
+	left: 25%;
+	border: 4px white solid;
+	border-radius: 10px;
+	background: SandyBrown;
+	padding: 10px;
+	font-family: 'Beer money';
+	font-size: 150%;
+	max-height: 600px;
+	overflow: auto;
+	cursor: pointer; 
+}

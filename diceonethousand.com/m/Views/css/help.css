@@ -1,0 +1,15 @@
+#help{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	border: 4px white solid;
+	border-radius: 10px;
+	background: SandyBrown;
+	padding: 10px;
+	font-family: 'Beer money';
+	font-size: 250%;
+	width: 950px;
+	height: 100%;
+	overflow: auto;
+	cursor: pointer; 
+}

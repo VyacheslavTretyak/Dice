@@ -1,0 +1,121 @@
+#mainGame{	
+	width: 98%;
+	height: 100%;	
+	text-align: center;	
+	overflow: auto;	
+}
+#menuGame{
+	font-size: 200%;
+	position: fixed;
+	top: 200px;
+	left: 1000px;
+	width: 500px;
+	height: 600px;
+	border: solid 2px brown;
+    background: LemonChiffon;
+	text-align: center;		
+	
+}
+#gameMoney{
+	font-family: 'Beer money';
+	font-size: 400%;
+	color: LemonChiffon;
+	border: solid 4px LemonChiffon;
+    background: brown;		
+}
+#playersGame{		
+	width: 100%;	
+	text-align: left;
+	font-size: 300%;
+	background: Sienna;
+}
+#imgDice{
+	width: 100%;
+	height: 160px;
+}
+#bNext, #bMove{	
+	display: inline-block;	
+	margin: 15px 10px 15px 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;	
+	font-size: 400%;	
+}
+.linePlayer{
+	margin: 10px;
+	float: left;
+}
+.playerGame{
+	margin-left: 10px;
+	display: block;
+	font-family: 'Beer money';
+	font-size: 200%;
+	color: Salmon;
+	width: 180px;
+}
+.points, .sum, .total, .dash{
+	text-align: center;
+	width: 130px;
+	display: inline-block;
+	position: relative;
+	font-family: 'Beer money';
+	font-size: 170%;
+	color: white;
+}
+.dash{
+	font-size: 100%;
+}
+#sameVal{
+	position: fixed;
+	top: 200px;	
+	font-size: 500%;
+	display: none;
+}
+#beginGame, #sortition, #newMess{
+	background: white;
+	position: fixed;
+	top: 200px;	
+	font-size: 600%;
+	display: none;	
+}
+#value{
+	position: fixed;
+    left: 0;
+	top: 0;
+	color: khaki;
+	opacity: 1;
+	font-family: 'Beer money';		
+}
+#win{
+	display: none;
+	background: SpringGreen;
+	border-color: white;
+	color: OrangeRed;
+	font-size: 600%;
+	position: fixed;
+	width: 98%;
+	height: 100%;
+	top: 0px;
+}
+.addButton{
+	display: inline;
+}
+.bRemPlGame, .bAddFriend, .bChat, .bHover{
+	display: inline-block;	
+	margin-left: 50px;
+    background: none;
+    color: CornflowerBlue;     
+    border: 2px CornflowerBlue solid;
+	border-radius: 7px;	
+	font-family: 'Egipet';
+	font-size: 100%;
+}
+#lastPlayer{
+	position: fixed;
+	left: 0px;
+	width:98%;
+	height: 50%;
+	font-size: 400%;
+}
+#lastPlayer>#bBreak{
+	margin-left: 35%;	
+}

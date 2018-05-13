@@ -1,0 +1,20 @@
+<div id="help">
+	<h1>**HELP**</h1>
+	<h3>**HELP1**</h3>
+	<p>**HELP2**</p>
+	<p>**HELP3**</p>
+	<p>**HELP4**</p>
+	<p>**HELP5**</p>
+	<p>**HELP6**</p>
+	<p>**HELP7**</p>
+	<p>**HELP8**</p>
+	<p>**HELP9**</p>
+	<p>**HELP10**</p>
+	<p>**HELP11**</p>
+	<p>**HELP12**</p>
+	<p>**HELP13**</p>
+	<p>**HELP14**</p>
+	<p>**HELP15**</p>
+	<p>**HELP16**</p>
+	<p>**HELP17**</p>
+</div>

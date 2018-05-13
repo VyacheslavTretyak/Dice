@@ -1,0 +1,40 @@
+#menu{	
+	position: absolute;	
+	color: LemonChiffon;
+	font-family: 'Egipet';
+	font-size: 175%;	
+	right: 20px;
+	top: 135px;
+	text-align: right;
+}
+select{
+	font-family: 'Egipet';
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: brown;	
+	color: LemonChiffon;
+	border-radius: 15px;
+	border: 1px solid;
+	border-color: LemonChiffon;
+	padding: 5px;
+	box-shadow: 0px 0px 10px #000;	
+	margin-left: 5px;
+	font-size: 80%;
+	margin-right: 5px;
+}
+.butMenu{
+	display: inline-block;	
+}
+#bCC{
+
+}
+#bHelp{
+	margin-right: 50px;	
+}
+#myCoins{
+	color: Gold;
+}
+#bank, #bonus{
+	color: Gold;
+	display: inline-block;
+}

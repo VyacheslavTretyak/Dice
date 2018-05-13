@@ -1,0 +1,60 @@
+html{
+    height: 100%;
+}
+body{	
+    width: 100%;	 
+	background-image: url(../img/field.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+    margin-left: auto;
+    margin-right: auto;		
+} 
+#header{      
+	width: 95%;
+	margin: 10px 2.5% 0px 2.5%;	
+    height: 160px;
+	background-color: brown;
+	border: double 10px LemonChiffon;	
+	border-radius: 50px;
+}
+#vk{
+	position: absolute;
+	left: 100px;
+	top: 150px;
+}
+#fb{
+	position: absolute;
+	left: 270px;
+	top: 150px;
+}
+#dices{		
+	float: right;	
+	margin-top: 5px;
+	margin-right: 20px;
+}
+#footer{ 	
+    width: 95%;
+	margin: 10px 2.5% 0px 2.5%;	
+    background-color: brown;	
+	border: double LemonChiffon 5px;	
+	border-radius: 20px;
+	color: LemonChiffon;
+    font-family: 'Egipet';
+    font-size: 175%;
+    text-align: center;	
+}
+#myemail{
+	color: white;
+	margin-top: -30px;
+	font-family: 'Beer money';
+	font-size: 70%;
+}
+#texthed{	
+	position: absolute;
+	margin-top: 50px;
+	color: LemonChiffon;
+    font-family: 'Egipet';
+    font-size: 750%;
+    margin-top: 10px;
+    margin-left: 20px;	
+}

@@ -1,0 +1,1 @@
+<button class="bAddFriend" title="**ADD**">+</button>

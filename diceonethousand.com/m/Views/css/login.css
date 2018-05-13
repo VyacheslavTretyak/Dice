@@ -1,0 +1,36 @@
+#divlogin{
+    width: 98%;
+    height: 100%;	
+	border: 5px brown double;
+    background-color: LemonChiffon;    
+    text-align: center;  
+	font-family: 'Egipet';
+	font-size: 400%;
+}
+#iLogin, #iPass{
+	border: none;
+	border-bottom: 3px solid brown;
+}
+#tabLogin{	
+	margin-top: 100px;
+	margin-bottom: 100px;
+	cellpadding: 50px;
+}
+.lineTabLog>td{     
+    padding-top: 100px;      
+	padding-bottom: 0px;
+}
+.errLogin{
+	margin-top: 20px;
+}
+#bEnter, #bReg{
+	display: inline-block;
+	margin-top: 100px;
+}
+#bReg{
+	width: 350px;
+	margin-bottom: 70px;
+}
+#bEnter{
+	width: 200px;	
+}

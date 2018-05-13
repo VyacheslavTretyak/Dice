@@ -1,0 +1,42 @@
+#invite{
+	padding: 5px;	
+	white-space: nowrap;
+}
+.nameInvite{
+	display: inline-block;
+}
+.butInvite{
+	display: inline-block;
+}
+.box{
+	color: brown;
+	border: solid 2px;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 5px;
+}
+#startBox{
+	margin-left: 10px;	
+	color: black;
+	font-family: 'Beer money';
+	font-size: 100%;
+	text-align: left;	
+}
+.remInv{
+	position: relative;
+	top: -5px;
+}
+#bStart{
+	margin-left: 30%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 300px;	
+}
+.imgAnswer{
+	width: 70px;
+	height: 70px;
+	margin-left: 30px;
+}
+#start .bRemPlGame{
+	width: 70px;
+}

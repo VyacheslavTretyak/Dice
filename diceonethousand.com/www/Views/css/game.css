@@ -1,0 +1,139 @@
+#mainGame{
+	margin: 10px 10% 10px 10%;
+	width: 80%;
+	min-width: 900px;
+	height: 920px;
+	background-color: Sienna;
+	border: 10px LemonChiffon double;
+	border-radius: 20px;
+	text-align: center;
+	white-space: nowrap;
+	overflow: auto;
+}
+#title{	
+	font-family: 'Egipet';
+    font-size: 300%;
+	color: LemonChiffon;
+	margin: 10px;
+	left: 40%;
+}
+#playersGame{	
+	margin: 0px 430px 10px 10px;	
+	min-width: 400px;
+	height: 400px;
+	border: 4px LemonChiffon solid;
+	border-radius: 10px;	
+	text-align: left;
+}
+#fieldButton{
+	float: right;
+	margin: 0px 10px 0px 10px;
+	width: 400px;
+	height: 400px;	
+	border: 4px LemonChiffon solid;
+	border-radius: 10px;
+	background: SandyBrown;	
+}
+#fieldGame{
+	width: 400px;
+	height: 400px;
+}
+#bNext, #bMove{	
+	display: inline-block;	
+	margin: 20px 0px 0px 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;	
+	font-size: 150%;	
+}
+.linePlayer{
+	margin: 10px;
+	float: left;
+}
+.playerGame{
+	margin-left: 10px;
+	display: inline-block;
+	font-family: 'Beer money';
+	font-size: 250%;
+	color: Salmon;
+	width: 180px;
+}
+.points, .sum, .total, .dash{
+	text-align: center;
+	width: 50px;
+	display: inline-block;
+	position: relative;
+	font-family: 'Beer money';
+	font-size: 200%;
+	color: white;
+}
+.dash{
+	font-size: 100%;
+}
+#sameVal{
+	position: fixed;
+	top: 450px;
+	left: 55%;
+	font-size: 200%;
+	display: none;
+}
+#beginGame, #sortition{
+	background: white;
+	position: fixed;
+	top: 300px;
+	left: 42%;
+	font-size: 250%;
+	display: none;	
+}
+#value{
+	position: fixed;
+    left: 0;
+	top: 0;
+	color: khaki;
+	opacity: 1;
+	font-family: 'Beer money';
+	font-size: 350%;	
+}
+#win{
+	display: none;
+	background: SpringGreen;
+	border-color: white;
+	color: OrangeRed;
+	font-size: 300%;	
+	left: 33%;
+	padding: 10%;
+	top: 15%;
+}
+.lineGame:hover .bRemPlGame{
+    transform: scale(1);
+    -ms-transform: scale(1);
+}
+.lineGame:hover .bChat{
+    transform: scale(1);
+    -ms-transform: scale(1);
+}
+.addButton{
+	display: inline;
+}
+.bRemPlGame, .bAddFriend, .bChat, .bHover{
+	display: inline-block;	
+	margin-left: 5px;
+    background: none;
+    color: CornflowerBlue;     
+    border: 2px CornflowerBlue solid;
+	border-radius: 7px;	
+	font-family: 'Egipet';
+    cursor: pointer; 
+    transition:  0.5s;   
+    -ms-transition:  0.5s;   
+    transform: scale(0);
+    -ms-transform: scale(0);
+}
+#lastPlayer{
+	position: fixed;
+	left: 40%;
+	top: 250px;
+	font-size: 200%;
+}
+#lastPlayer>#bBreak{
+	margin-left: 35%;	
+}
